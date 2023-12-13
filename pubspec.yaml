@@ -1,0 +1,36 @@
+
+name: topicos
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+dependencies:
+  lottie: ^2.7.0
+  another_flutter_splash_screen: ^1.2.0
+  url_launcher: ^6.1.14
+  image_picker: ^1.0.4
+  flutter:
+    sdk: flutter
+  concentric_transition: ^1.0.3
+  carousel_slider: ^4.2.1
+
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/logos/facebook.jpg
+    - assets/logos/google.jpg
+    - assets/images/.
+    - assets/animation/.
+    - images/.
+    
+    
